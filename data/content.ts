@@ -12,7 +12,7 @@ export const products: ProductData[] = [
   {
     id: "software-dist",
     title: "ソフトウェア配信",
-    images: ["/images/軟體派送01.png", "/images/軟體派送02.png"],
+    images: ["./images/軟體派送01.png", "./images/軟體派送02.png"],
     features: [
       { title: "スキャン", description: "端末PCのソフトウェア使用状況をスキャンして報告します。インストール済みソフトウェア、バージョン、使用時間、使用頻度などの情報を含みます。" },
       { title: "レポート", description: "システムが配信データをリアルタイムで報告し、各PCの配信結果を正確に把握します。また、配信失敗の原因も分析します。" },
@@ -24,7 +24,7 @@ export const products: ProductData[] = [
   {
     id: "vans",
     title: "VANS 自動パッチ適用",
-    images: ["/images/VANS01.png", "/images/VANS02.png"],
+    images: ["./images/VANS01.png", "./images/VANS02.png"],
     features: [
       { title: "レポート", description: "システムが配信データをリアルタイムで報告し、各PCの配信結果を正確に把握します。また、配信失敗の原因も分析します。" },
       { title: "更新管理", description: "時間のかかるバージョンアップやHotfixの配信作業を改善し、過去の修正履歴も記録します。自動化されたデプロイ管理により、管理者の手間を削減し、全方位で防御を実現します。" },
@@ -35,7 +35,7 @@ export const products: ProductData[] = [
   {
     id: "gcb",
     title: "ワンクリックで GCB / FCB / CIS に準拠した設定適用",
-    images: ["/images/GCB01.png", "/images/GCB02.png"],
+    images: ["./images/GCB01.png", "./images/GCB02.png"],
     features: [
       { title: "ワンクリック完了＆ワンクリック復元", description: "ワンクリックでGCB構成のスキャン、適用、確認を完了します。突発的な状況が発生した場合でも、「ワンクリック復元」により元の構成に戻せるため、作業は中断せず、損失を最小限に抑えられます。" },
       { title: "ビジュアルチャート", description: "システムがGCB規定データを自動統合し、インテリジェントにチャート表示します。管理者はGCBの適用状況を一目で把握できます。" },
@@ -46,7 +46,7 @@ export const products: ProductData[] = [
   {
     id: "edr",
     title: "EDR エンドポイント検知",
-    images: ["/images/EDR01.png", "/images/EDR02.png"],
+    images: ["./images/EDR01.png", "./images/EDR02.png"],
     features: [
       { title: "リアルタイム検知", description: "あらゆる異常行動を即時に監視し、攻撃者に一切の隙を与えません。" },
       { title: "インテリジェント対応", description: "世界中の高度なセキュリティ知見を集約し、担当者の正確な判断を支援します。" },
@@ -58,7 +58,7 @@ export const products: ProductData[] = [
   {
     id: "nac",
     title: "NAC ネットワークアクセス制御",
-    images: ["/images/NAC01.png", "/images/NAC02.png", "/images/NAC03.png"],
+    images: ["./images/NAC01.png", "./images/NAC02.png", "./images/NAC03.png"],
     features: [
       { title: "802.1X認証", description: "802.1X規格により、追加のハードウェアなしでネットワークを管理・制御できます。" },
       { title: "デバイス接続遮断", description: "管理者は管理画面からLAN内の各デバイスを手動で接続許可または遮断できます。特殊な要件のデバイスは接続可能にし、異常なデバイスは手動で遮断できます。" },
@@ -69,7 +69,7 @@ export const products: ProductData[] = [
   {
     id: "iot",
     title: "IOT デバイスのオンライン識別",
-    images: ["/images/IOT01.png", "/images/IOT02.png"],
+    images: ["./images/IOT01.png", "./images/IOT02.png"],
     features: [
       { title: "デバイス収集・検知", description: "ネットワーク内のすべてのオンラインデバイスのネットワークカード情報を自動収集し、Agentのインストール状況を検知します。" },
       { title: "メーカー照合", description: "接続デバイスのメーカー名とその登録国籍を迅速に照合し、中国製情報通信機器の無痛チェックを実現します。" },
@@ -80,7 +80,7 @@ export const products: ProductData[] = [
   {
     id: "dlp",
     title: "DLP データ漏えい防止",
-    images: ["/images/DLP02.png", "/images/DLP03.png", "/images/DLP04.png"],
+    images: ["./images/DLP02.png", "./images/DLP03.png", "./images/DLP04.png"],
     features: [
       { title: "USBストレージ管理・三者認証・ファイル変更・リアルタイム監視・詳細記録", description: "USBストレージ、ユーザー、PCのすべてが規定に準拠している場合にのみUSBにアクセス可能です。また、USB操作やファイル変更をリアルタイムで詳細に記録します。" },
       { title: "画面透かし・情報撮影防止", description: "ユーザーは透かしのフォーマットをカスタマイズ可能で、PC起動時にデスクトップ上に表示されます。これにより、機密情報の撮影による漏洩を防止します。" },
@@ -91,7 +91,7 @@ export const products: ProductData[] = [
   {
     id: "zta",
     title: "ゼロトラスト\n（Zero Trust）",
-    images: ["/images/ZTA01.png"],
+    images: ["./images/ZTA01.png"],
     features: [
       { title: "コアアーキテクチャ", description: "NIST SP 800-207標準に基づいて設計され、ゼロトラストアーキテクチャ（ZTA）の3段階戦略を採用。各アクセスごとに動的な認証・認可を行い、常に検証された安全なアクセスを保証します。" },
       { title: "ダイナミックトラスト", description: "ユーザーの状況やデバイスのリアルタイム状態に応じてアクセス権限を動的に調整し、最小権限の原則を徹底します。これにより、多様な潜在的脅威にも柔軟に対応できます。" },
@@ -102,7 +102,7 @@ export const products: ProductData[] = [
   {
     id: "sase",
     title: "AI SASE",
-    images: ["/images/AI SASE01.png"],
+    images: ["./images/AI SASE01.png"],
     features: [
       { title: "ワンストップ管理・ネットワークデータ保護・安全なリモート接続", description: "クラウドサービスを提供し、WinNexusによるワンストップ管理でネットワークトラフィックとリソース配分を集中管理できます。" },
       { title: "ネットワークデータ保護・ZTNA・SD-WAN・FWaaS・SWG・DLP", description: "ZTNA原則に基づき、SD-WANを用いてネットワークを動的管理し、SWG、FWaaS、DLP技術を組み合わせることで、低コストで高い安全性とデータ保護を実現します。" },
@@ -112,7 +112,7 @@ export const products: ProductData[] = [
   {
     id: "ai-server",
     title: "AI Server",
-    images: ["/images/AI Server01.png", "/images/AI Server02.png", "/images/AI Server03.png"],
+    images: ["./images/AI Server01.png", "./images/AI Server02.png", "./images/AI Server03.png"],
     features: [],
     specs: {
       gpu: {

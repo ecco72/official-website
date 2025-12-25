@@ -24,7 +24,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group relative z-10">
           <img 
-            src="/images/CTC_logo_2.png" 
+            src="./images/CTC_logo_2.png" 
             alt="CT-Cloud" 
             className="h-8 md:h-10 w-auto object-contain transition-all duration-300" 
           />

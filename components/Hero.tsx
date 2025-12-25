@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const bgImage = encodeURI("/images/大橫幅-11.png");
-  const mobileBgImage = encodeURI("/images/小橫幅-12.png");
+  const bgImage = encodeURI("./images/大橫幅-11.png");
+  const mobileBgImage = encodeURI("./images/小橫幅-12.png");
 
   return (
     <div className="relative w-full h-screen overflow-hidden bg-white dark:bg-[#050507] flex items-center justify-center transition-colors duration-700">
