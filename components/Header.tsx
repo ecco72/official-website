@@ -8,7 +8,8 @@ const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const nextLang = i18n.language === 'ja' ? 'en' : 'ja';
+    const currentLang = i18n.resolvedLanguage || 'ja';
+    const nextLang = currentLang.startsWith('ja') ? 'en' : 'ja';
     i18n.changeLanguage(nextLang);
   };
 
@@ -72,7 +73,7 @@ const Header: React.FC = () => {
             className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 transition-all text-gray-600 dark:text-gray-300 font-bold text-xs"
             aria-label="Toggle Language"
           >
-            {i18n.language === 'ja' ? 'EN' : 'JP'}
+            {(i18n.resolvedLanguage || 'ja').startsWith('ja') ? 'EN' : 'JA'}
           </button>
 
           {/* Mobile Menu Button Removed as requested */}
