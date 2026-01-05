@@ -51,21 +51,21 @@
                     "focus": "Supply Chain Interruption Risks, Business Continuity & Control Maintenance, Recovery Consistency"
                 },
                 {
-                    "iso": "ISO 22313 BCM Guidance",
+                    "iso": "ISO 22313\nBCM Guidance",
                     "nist": "G / I / R / Rc",
                     "winnexus": "Assets, EDR, Anti-virus (Integrable), VNC/Command Logs, KB/Distribution",
                     "evidence": "Incident & Response Timeline, Recovery & Patching Evidence, Drill/Incident Report Export",
                     "focus": "Drill/Incident/Recovery Traceability, Business Continuity"
                 },
                 {
-                    "iso": "ISO/IEC 27050 eDiscovery/Evidence Gathering",
+                    "iso": "ISO/IEC 27050\neDiscovery/Evidence Gathering",
                     "nist": "D / R / G",
                     "winnexus": "EDR (Event Data), VNC/Command Logs, DLP (USB Device Events)",
                     "evidence": "Chain of Custody (Timeline/Logs/Action Records), USB Events, Investigation/Audit Report Export",
                     "focus": "Electronic Evidence Retention, Traceability, Action Log Retention"
                 },
                 {
-                    "iso": "ISO/IEC 23894 AI Risk Management",
+                    "iso": "ISO/IEC 23894\nAI Risk Management",
                     "nist": "G / I / P / D / R",
                     "winnexus": "AI Server Hardware (ODM Support), GPU Security MGMT Platform (Cloud Native): Scheduling/Metering/Billing/Tenant Isolation/Centralized Logs, Foundation NAC+ZTA, EDR, Anti-virus (Integrable)",
                     "evidence": "GPU Usage/Action Traceability Records, Tenant/Task Isolation Evidence, Governance Report Export",
