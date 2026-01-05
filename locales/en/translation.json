@@ -1,0 +1,457 @@
+{
+    "app": {
+        "title": "CT-Cloud Technology Co., LTD.",
+        "description": "CT-Cloud Technology - Making IT Infrastructure Stronger and Freer"
+    },
+    "hero": {
+        "title": "CT-Cloud",
+        "subtitle": "Creating Cloud Technology",
+        "scroll": "Scroll",
+        "bgImage": "./images/大橫幅-11.png",
+        "mobileBgImage": "./images/小橫幅-12.png"
+    },
+    "nav": {
+        "company": "Company",
+        "products": "Products",
+        "contact": "Contact"
+    },
+    "compliance": {
+        "sectionLabel": "INNOVATION & COMPLIANCE",
+        "sectionTitle": "Global Reliability & Innovation",
+        "highlight": "CT-Cloud is a Taiwan-headquartered cybersecurity innovator with an R&D-first culture, delivering globally consistent security with locally compliant execution. Built for distributors, we provide repeatable rollout playbooks and SI-friendly architectures that accelerate deployments, reduce delivery risk, and produce audit-ready evidence for regulated bids. Our roadmap aligns with ISO/IEC 27001, 27036, 27050, ISO 28000, ISO 22313/22318, ISO/IEC 42001 and ISO/IEC 23894, mapped to NIST CSF, and dual-benchmarked to CIS Benchmarks/STIG and Taiwan Cybersecurity Institute requirements. Secure AI Server extends governance into GPU/AI compute operations.",
+        "table": {
+            "title": "Digital Transformation / CSA / NSTC / SP-ISAC Control & Evidence",
+            "headers": {
+                "iso": "ISO / Standard",
+                "nist": "NIST CSF",
+                "winnexus": "WinNexus Capability",
+                "evidence": "Audit Evidence",
+                "focus": "Management Focus"
+            },
+            "rows": [
+                {
+                    "iso": "ISO 28000\nSupply Chain Security",
+                    "nist": "G / I / P / D / R / Rc",
+                    "winnexus": "Asset MGMT, IoT ID, NAC, ZTA, GPO (CIS Benchmarks), DLP, EDR, Anti-virus (Integrable), VNC Remote Logs, KB/Distribution",
+                    "evidence": "Access/Login Records, Baseline Reports, USB Event Logs, Incident Timeline/Action Records, Patch Compliance Reports, Report Export",
+                    "focus": "Supply Chain/Outsourcing/Supplier Security Governance, Perimeter Defense & Traceability"
+                },
+                {
+                    "iso": "ISO/IEC 27036\nSupplier Security",
+                    "nist": "G / I / P / D",
+                    "winnexus": "NAC+ZTA (Supplier Access/Least Privilege/Segmentation), Asset/IoT Scope Definition, GPO (CIS), DLP",
+                    "evidence": "Supplier Access Trails, Policy Execution Records, USB Device Events, Audit Report Export",
+                    "focus": "Supplier Access, Responsibility Scoping, Data Exchange & Auditability"
+                },
+                {
+                    "iso": "ISO/TS 22318\nSupply Chain Continuity",
+                    "nist": "G / I / P / R / Rc",
+                    "winnexus": "Asset/IoT, NAC+ZTA (Controlled Access in Emergency), KB/Distribution (Recovery Consistency)",
+                    "evidence": "Recovery/Fix Records, Version Consistency Reports, Recovery Process Evidence Export",
+                    "focus": "Supply Chain Interruption Risks, Business Continuity & Control Maintenance, Recovery Consistency"
+                },
+                {
+                    "iso": "ISO 22313\nBCM Guidance",
+                    "nist": "G / I / R / Rc",
+                    "winnexus": "Assets, EDR, Anti-virus (Integrable), VNC/Command Logs, KB/Distribution",
+                    "evidence": "Incident & Response Timeline, Recovery & Patching Evidence, Drill/Incident Report Export",
+                    "focus": "Drill/Incident/Recovery Traceability, Business Continuity"
+                },
+                {
+                    "iso": "ISO/IEC 27050\neDiscovery/Evidence Gathering",
+                    "nist": "D / R / G",
+                    "winnexus": "EDR (Event Data), VNC/Command Logs, DLP (USB Device Events)",
+                    "evidence": "Chain of Custody (Timeline/Logs/Action Records), USB Events, Investigation/Audit Report Export",
+                    "focus": "Electronic Evidence Retention, Traceability, Action Log Retention"
+                },
+                {
+                    "iso": "ISO/IEC 23894\nAI Risk Management",
+                    "nist": "G / I / P / D / R",
+                    "winnexus": "AI Server Hardware (ODM Support), GPU Security MGMT Platform (Cloud Native): Scheduling/Metering/Billing/Tenant Isolation/Centralized Logs, Foundation NAC+ZTA, EDR, Anti-virus (Integrable)",
+                    "evidence": "GPU Usage/Action Traceability Records, Tenant/Task Isolation Evidence, Governance Report Export",
+                    "focus": "AI/Compute Resource Governance, Isolation, Traceability & Audit"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "taichung": {
+            "title": "Taichung HQ",
+            "address": "Rm. 3, 16F., No. 925, Sec. 4, Taiwan Blvd., Xitun Dist., Taichung City 407, Taiwan (R.O.C.)"
+        },
+        "taipei": {
+            "title": "Taipei Office",
+            "address1": "11F., No. 186, Jian 1st Rd., Zhonghe Dist., New Taipei City 235, Taiwan (R.O.C.) (First Office)",
+            "address2": "3F, No. 335, Ruiguang Road, Neihu District, Taipei 114, Taiwan (R.O.C.) (Honghui Ruiguang Plaza, Building B) (Second Office)"
+        },
+        "tainan": {
+            "title": "Tainan Office",
+            "address": "2F Siyuan Building., No. 33, Sec. 2, Shulin St., West Central Dist., Tainan City 700, Taiwan (R.O.C.)"
+        },
+        "email": "E-mail",
+        "copyright": "Copyright © 2011-{{year}}",
+        "companyName": "CT-Cloud Technology Co., LTD."
+    },
+    "company": {
+        "sectionTitle": "Company Profile",
+        "heroTitle": "Beyond Security",
+        "heroSubtitle": "Empowering IT Infrastructure,<br/>Stronger and Freer.",
+        "stats": {
+            "established": "Established",
+            "establishedValue": "2011",
+            "certification": "Certifications",
+            "certificationValue": "ISO 27001",
+            "deployments": "Clients",
+            "deploymentsValue": "50+",
+            "terminals": "Endpoints",
+            "terminalsValue": "1M+"
+        },
+        "description": [
+            "Creating Cloud Technology Co., Ltd. (founded in 2011) specializes in cloud management and cyber security technologies. We hold multiple security certifications including ISO 27001:2022. Through our proprietary 'WinNexus' platform, we help enterprises optimize software resources and improve IT management efficiency. We also build stable technical foundations in cloud and AI native service areas.",
+            "WinNexus provides lightweight ITSM, asset lifecycle management, software distribution, and IT process automation. It supports software license cost reduction and integration with AD/LDAP/SSO. Furthermore, it strengthens security features such as external device control, user behavior logs, and VANS/GCB modules. It has been deployed in over 50 mid-to-large enterprises and government agencies, managing over 1 million endpoints."
+        ]
+    },
+    "products": {
+        "sectionLabel": "Solutions",
+        "sectionTitle": "Products",
+        "card": {
+            "productLabel": "PRODUCT",
+            "featuresLabel": "Key Features",
+            "specsLabel": "System Specs",
+            "zoomLabel": "Zoom"
+        }
+    },
+    "products_data": {
+        "software-dist": {
+            "title": "Software Distribution",
+            "images": [
+                "./images/en/軟體派送01.png",
+                "./images/en/軟體派送02.png"
+            ],
+            "features": [
+                {
+                    "title": "Scanning",
+                    "description": "Performs comprehensive scans of endpoint devices, providing detailed insights into installed software, versioning, usage duration, and frequency."
+                },
+                {
+                    "title": "Reporting",
+                    "description": "Delivers prompt updates on deployment status, tracking software dispatch outcomes per endpoint precisely with diagnostics on deployment issues."
+                },
+                {
+                    "title": "Access Control",
+                    "description": "Active Directory (AD) Server integration for streamlined login control, with optional standalone operation capability."
+                },
+                {
+                    "title": "Silent Installation",
+                    "description": "Quietly executes software updates and hot-fixes in the background, ensuring uninterrupted end-user productivity."
+                },
+                {
+                    "title": "Licensing Optimization",
+                    "description": "Effectively manages software licensing by aligning purchases with actual usage, preventing unnecessary expenditure or shortages."
+                }
+            ]
+        },
+        "vans": {
+            "title": "VANS Auto-Patching",
+            "images": [
+                "./images/en/VANS01.png",
+                "./images/en/VANS02.png"
+            ],
+            "features": [
+                {
+                    "title": "Real-Time Reporting",
+                    "description": "Instantly provides deployment status, precisely tracking software updates across every device, along with clear diagnostics for any failed deployments."
+                },
+                {
+                    "title": "Automated Updates",
+                    "description": "Optimizes traditionally time-intensive version updates and hotfix deployments through automation and detailed activity logging, providing comprehensive protection while saving administrative time and effort."
+                },
+                {
+                    "title": "Smart Matching",
+                    "description": "Proactively identifies software vulnerabilities based on current NICS / industry cybersecurity standards, allowing immediate remediation without external evaluations."
+                },
+                {
+                    "title": "Comprehensive Logs",
+                    "description": "Maintains detailed logs of all software activities, including installations, removals, and version updates, ensuring complete asset visibility."
+                }
+            ]
+        },
+        "gcb": {
+            "title": "One-Click GCB/FCB/CIS",
+            "images": [
+                "./images/en/GCB01.png",
+                "./images/en/GCB02.png"
+            ],
+            "features": [
+                {
+                    "title": "Instant Apply & Restore",
+                    "description": "One-Click GCB scanning, deployment, and validation with instant rollback to minimize downtime."
+                },
+                {
+                    "title": "Visual Dashboards",
+                    "description": "Automatically generates intuitive dashboards from GCB compliance data for clear, real-time oversight."
+                },
+                {
+                    "title": "Detailed Diagnostics",
+                    "description": "Detailed deployment reports highlight success rates and identify issues for rapid troubleshooting."
+                },
+                {
+                    "title": "Unified Management",
+                    "description": "Manage GCB settings across OS, browsers, apps, and network firewalls in one streamlined action."
+                }
+            ]
+        },
+        "edr": {
+            "title": "EDR",
+            "images": [
+                "./images/en/EDR01.png",
+                "./images/en/EDR02.png"
+            ],
+            "features": [
+                {
+                    "title": "Real-Time Monitoring",
+                    "description": "Continuously monitors and immediately identifies suspicious activities to block threats before exploitation."
+                },
+                {
+                    "title": "Smart Response",
+                    "description": "Leverages global cybersecurity intelligence to support rapid and accurate decision-making."
+                },
+                {
+                    "title": "File Integrity Logs",
+                    "description": "Records detailed file hash changes to prevent malicious tampering and ensure data integrity."
+                },
+                {
+                    "title": "One-Click Installation",
+                    "description": "install or uninstall with a single click, drastically reducing manual effort and costs."
+                },
+                {
+                    "title": "Email Alerts",
+                    "description": "Automatically dispatches email notifications at the first sign of security incidents, enabling immediate response with zero delay."
+                }
+            ]
+        },
+        "nac": {
+            "title": "Network Access Control",
+            "images": [
+                "./images/en/NAC01.png",
+                "./images/en/NAC02.png",
+                "./images/en/NAC03.png"
+            ],
+            "features": [
+                {
+                    "title": "802.1X-Based Access Control",
+                    "description": "Utilizes the 802.1X standard to enforce network access policies without requiring additional hardware."
+                },
+                {
+                    "title": "Manual Device Control",
+                    "description": "Administrators can manually allow or block device access on the LAN through centralized interface, ideal for granting exceptions or isolating suspicious endpoints."
+                },
+                {
+                    "title": "Network Isolation",
+                    "description": "Authenticated users are assigned to VLANs based on their identity. VLANs are fully segmented and isolated from each other, ensuring, for example, that guest users cannot access sensitive internal resources."
+                },
+                {
+                    "title": "Network Topology Visualization",
+                    "description": "Provides a real-time, visual representation of all connected devices and their statuses, offering a clear, comprehensive overview of the entire network structure."
+                }
+            ]
+        },
+        "iot": {
+            "title": "IoT Device Identification",
+            "images": [
+                "./images/en/IOT01.png",
+                "./images/en/IOT02.png"
+            ],
+            "features": [
+                {
+                    "title": "Device Discovery",
+                    "description": "Automatically scans network segment, gathering Network Interface details from active devices and verifying agent installation status."
+                },
+                {
+                    "title": "Geo-Based Manufacturer Screening",
+                    "description": "Quickly matches devices to their manufacturers and registered countries, proactively identifying and managing devices form sensitive regions (e.g., China)"
+                },
+                {
+                    "title": "Customizable Real-Time Alerts",
+                    "description": "Easily set targeted detection criteria by country and define alert recipients. Instantly issues email notifications to rapidly escalate security responsiveness."
+                },
+                {
+                    "title": "Access Control Health Checks",
+                    "description": "Periodically verifies IoT devices, promptly detecting offline access control systems or surveillance cameras, and issues immediate alerts to mitigate risks from equipment downtime."
+                }
+            ]
+        },
+        "dlp": {
+            "title": "Data Leak Prevention",
+            "images": [
+                "./images/en/DLP01.png",
+                "./images/en/DLP02.png",
+                "./images/en/DLP03.png",
+                "./images/DLP04.png"
+            ],
+            "features": [
+                {
+                    "title": "USB & File Management",
+                    "description": "USB storage devices, users, and host machines must all comply with security standards to enable USB storage access. All operations and file activities are comprehensively logged in real-time."
+                },
+                {
+                    "title": "Screen Watermarking",
+                    "description": "Customizable watermarking that is displayed prominently upon system startup, effectively deterring unauthorized photography of sensitive information."
+                },
+                {
+                    "title": "Encryption & Steganography",
+                    "description": "Files are automatically encrypted immediately upon closure, ensuring data security. Advanced information concealment techniques are utilized to prevent unauthorized awareness of confidential files."
+                },
+                {
+                    "title": "Viewing & Screenshot Protection",
+                    "description": "Restricts clipboard and screenshot functionalities when sensitive documents are opened, with customizable levels of protection tailored to organizational security requirements."
+                }
+            ]
+        },
+        "zta": {
+            "title": "Zero Trust",
+            "images": [
+                "./images/ja/ZTA01.png"
+            ],
+            "features": [
+                {
+                    "title": "Core Architecture",
+                    "description": "Based on the NIST SP 800-207 standard, our Zero Trust Architecture (ZTA) utilizes a three-stage approach for dynamic identity verification and authorization, ensuring every access attempt is authenticated and validated."
+                },
+                {
+                    "title": "Dynamic Trust",
+                    "description": "The system dynamically adapts access permissions based on real-time user context and device status, enforcing the principle of least privilege while flexibly responding to emerging threats."
+                },
+                {
+                    "title": "Local Gateway",
+                    "description": "An innovative, decentralized local gateway management solution strategically deployed at key network nodes, precisely controlling device access to implement Zero Trust principles within internal network segments."
+                },
+                {
+                    "title": "Seamless Integration",
+                    "description": "Our ZTA security solution integrates effortlessly with existing security modules ( NAC / VANS / DLP ), fully aligning fully with CISA’s Zero Trust Maturity Model principles. This seamless adaptability ensures a comprehensive and resilient defense architecture."
+                }
+            ]
+        },
+        "sase": {
+            "title": "AI SASE",
+            "images": [
+                "./images/ja/AI SASE01.png"
+            ],
+            "features": [
+                {
+                    "title": "Unified Management",
+                    "description": "Our AI SASE delivers cloud-native services with centralized control over network traffic and resource allocation, all through Winnexus’s unified management interface."
+                },
+                {
+                    "title": "Network Data Security",
+                    "description": "Built on Zero Trust Network Access (ZTNA) principles, the platform uses SD-WAN for dynamic network management and integrates SWG, FWaaS, and DLP technologies to provide a cost-efficient, high-security data protection solution."
+                },
+                {
+                    "title": "Secure Remote Access",
+                    "description": "Ensure that remote workers can securely access corporate resources from anywhere. A built-in remote access reservation system allows for efficient control and scheduling of access permissions."
+                }
+            ]
+        },
+        "ai-server": {
+            "title": "AI Server",
+            "images": [
+                "./images/AI Server01.png",
+                "./images/AI Server02.png",
+                "./images/AI Server03.png"
+            ],
+            "specs": {
+                "gpu": {
+                    "headers": [
+                        "Item",
+                        "NVIDIA L40S",
+                        "NVIDIA H200"
+                    ],
+                    "rows": [
+                        {
+                            "label": "Architecture",
+                            "value1": "Ada Lovelace",
+                            "value2": "Hopper"
+                        },
+                        {
+                            "label": "CUDA Cores",
+                            "value1": "18,176",
+                            "value2": "16,896"
+                        },
+                        {
+                            "label": "Tensor Cores",
+                            "value1": "568",
+                            "value2": "528"
+                        },
+                        {
+                            "label": "RT Cores",
+                            "value1": "142",
+                            "value2": "N/A"
+                        },
+                        {
+                            "label": "GPU Memory",
+                            "value1": "48 GB GDDR6",
+                            "value2": "141 GB HBM3e"
+                        },
+                        {
+                            "label": "Memory Bandwidth",
+                            "value1": "864 GB/s",
+                            "value2": "4.8 TB/s"
+                        },
+                        {
+                            "label": "TDP (Thermal Design Power)",
+                            "value1": "350W",
+                            "value2": "Up to 600W"
+                        },
+                        {
+                            "label": "Slot Interface",
+                            "value1": "PCIe Gen4 x16 (Dual Slot)",
+                            "value2": "PCIe Gen5 x16 (Dual Slot)"
+                        },
+                        {
+                            "label": "Primary Use Case",
+                            "value1": "AI Inference, 3D Rendering, Visualization",
+                            "value2": "GenAI, LLM Inference, HPC, large-scale data center deployments"
+                        }
+                    ]
+                },
+                "server": {
+                    "title": "Model: CT-SR201-G2 2U",
+                    "rows": [
+                        {
+                            "label": "Processor",
+                            "value1": "AMD EPYC 9004 (Genoa) Series Dual CPU (Std: EPYC 9554)"
+                        },
+                        {
+                            "label": "Memory",
+                            "value1": "DDR5 RDIMM 24 Slots, 4800/4400 MT/s (Std: 256GB)"
+                        },
+                        {
+                            "label": "Storage",
+                            "value1": "12x 3.5/2.5\" SAS/SATA Hot-swap (Std: 32TB)"
+                        },
+                        {
+                            "label": "Network",
+                            "value1": "Onboard 1GbE (RJ45) x2"
+                        },
+                        {
+                            "label": "PCIe",
+                            "value1": "Dual Wide Full Height Full Length GPU Cards x2"
+                        },
+                        {
+                            "label": "Power",
+                            "value1": "1600W Redundant Hot-swap x2"
+                        },
+                        {
+                            "label": "OS",
+                            "value1": "Microsoft Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, CentOS, Ubuntu"
+                        },
+                        {
+                            "label": "Dimensions",
+                            "value1": "2U Rack 748 x 433.4 x 87.6mm (L x W x H)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
