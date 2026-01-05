@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useTheme } from '../App';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const { isDark, toggleTheme } = useTheme();
+  const { t, i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const nextLang = i18n.language === 'ja' ? 'en' : 'ja';
+    i18n.changeLanguage(nextLang);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,32 +21,31 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 border-b ${
-        isScrolled 
-          ? 'bg-white/90 dark:bg-[#050507]/90 backdrop-blur-xl border-gray-200 dark:border-white/5 py-3' 
-          : 'bg-transparent border-transparent py-4 md:py-6'
-      }`}
+    <header
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 border-b ${isScrolled
+        ? 'bg-white/90 dark:bg-[#050507]/90 backdrop-blur-xl border-gray-200 dark:border-white/5 py-3'
+        : 'bg-transparent border-transparent py-4 md:py-6'
+        }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group relative z-10">
-          <img 
-            src="./images/CTC_logo_2.png" 
-            alt="CT-Cloud" 
-            className="h-8 md:h-10 w-auto object-contain transition-all duration-300" 
+          <img
+            src="./images/CTC_logo_2.png"
+            alt="CT-Cloud"
+            className="h-10 md:h-14 w-auto object-contain transition-all duration-300"
           />
         </a>
-        
+
         <div className="flex items-center gap-6">
           <nav className="hidden md:flex gap-1 items-center bg-gray-100/50 dark:bg-white/5 backdrop-blur-md px-2 py-1.5 rounded-full border border-gray-200 dark:border-white/10">
             {[
-              { label: '会社概要', href: '#company' },
-              { label: '製品紹介', href: '#products' },
-              { label: 'お問い合わせ', href: '#contact' }
+              { label: t('nav.company'), href: '#company' },
+              { label: t('nav.products'), href: '#products' },
+              { label: t('nav.contact'), href: '#contact' }
             ].map((item) => (
-              <a 
+              <a
                 key={item.href}
-                href={item.href} 
+                href={item.href}
                 className="px-5 py-2 rounded-full text-xs font-medium tracking-wide text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white hover:bg-white dark:hover:bg-white/10 transition-all duration-300"
               >
                 {item.label}
@@ -48,7 +54,7 @@ const Header: React.FC = () => {
           </nav>
 
           {/* Theme Toggle */}
-          <button 
+          <button
             onClick={toggleTheme}
             className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 transition-all text-gray-600 dark:text-yellow-400"
             aria-label="Toggle Theme"
@@ -60,11 +66,21 @@ const Header: React.FC = () => {
             )}
           </button>
 
+          {/* Language Toggle */}
+          <button
+            onClick={toggleLanguage}
+            className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100 dark:bg-white/10 hover:bg-gray-200 dark:hover:bg-white/20 transition-all text-gray-600 dark:text-gray-300 font-bold text-xs"
+            aria-label="Toggle Language"
+          >
+            {i18n.language === 'ja' ? 'EN' : 'JP'}
+          </button>
+
           {/* Mobile Menu Button Removed as requested */}
         </div>
       </div>
     </header>
   );
 };
+
 
 export default Header;

@@ -1,0 +1,397 @@
+{
+    "app": {
+        "title": "CT-Cloud Technology Co., LTD.",
+        "description": "CT-Cloud Technology - Making IT Infrastructure Stronger and Freer"
+    },
+    "hero": {
+        "title": "CT-Cloud",
+        "subtitle": "Creating Cloud Technology",
+        "scroll": "Scroll",
+        "bgImage": "./images/大橫幅-11.png",
+        "mobileBgImage": "./images/小橫幅-12.png"
+    },
+    "nav": {
+        "company": "Company",
+        "products": "Products",
+        "contact": "Contact"
+    },
+    "footer": {
+        "taichung": {
+            "title": "Taichung HQ",
+            "address": "16F-3, No. 925, Sec. 4, Taiwan Blvd., Xitun Dist., Taichung City 407"
+        },
+        "taipei": {
+            "title": "Taipei Office",
+            "address1": "11F, No. 186, Jian 1st Rd., Zhonghe Dist., New Taipei City 235 (Office 1)",
+            "address2": "3F, No. 335, Ruiguang Rd., Neihu Dist., Taipei City 114 (Office 2)"
+        },
+        "tainan": {
+            "title": "Tainan Office",
+            "address": "2F, M211, Siyuan Hall, No. 33, Sec. 2, Shulin St., West Central Dist., Tainan City 700"
+        },
+        "email": "E-mail",
+        "copyright": "Copyright © 2011-{{year}}",
+        "companyName": "CT-Cloud Technology Co., LTD."
+    },
+    "company": {
+        "sectionTitle": "Company Profile",
+        "heroTitle": "Beyond<br />Security.",
+        "heroSubtitle": "Empowering IT Infrastructure,<br/>Stronger and Freer.",
+        "stats": {
+            "established": "Established",
+            "establishedValue": "2011",
+            "certification": "Certifications",
+            "certificationValue": "ISO 27001",
+            "deployments": "Clients",
+            "deploymentsValue": "50+",
+            "terminals": "Endpoints",
+            "terminalsValue": "1M+"
+        },
+        "description": [
+            "Creating Cloud Technology Co., Ltd. (founded in 2011) specializes in cloud management and cyber security technologies. We hold multiple security certifications including ISO 27001:2022. Through our proprietary 'WinNexus' platform, we help enterprises optimize software resources and improve IT management efficiency. We also build stable technical foundations in cloud and AI native service areas.",
+            "WinNexus provides lightweight ITSM, asset lifecycle management, software distribution, and IT process automation. It supports software license cost reduction and integration with AD/LDAP/SSO. Furthermore, it strengthens security features such as external device control, user behavior logs, and VANS/GCB modules. It has been deployed in over 50 mid-to-large enterprises and government agencies, managing over 1 million endpoints."
+        ]
+    },
+    "products": {
+        "sectionLabel": "Solutions",
+        "sectionTitle": "Products",
+        "card": {
+            "productLabel": "PRODUCT",
+            "featuresLabel": "Key Features",
+            "specsLabel": "System Specs",
+            "zoomLabel": "Zoom"
+        }
+    },
+    "products_data": {
+        "software-dist": {
+            "title": "Software Distribution",
+            "images": [
+                "./images/軟體派送01.png",
+                "./images/軟體派送02.png"
+            ],
+            "features": [
+                {
+                    "title": "Scan",
+                    "description": "Scans terminal PC software usage including installed software, versions, usage time, and frequency."
+                },
+                {
+                    "title": "Report",
+                    "description": "Real-time delivery reporting to accurately track results for each PC and analyze failure causes."
+                },
+                {
+                    "title": "Access Control",
+                    "description": "Integrates with AD for login control. Can also operate independently without AD."
+                },
+                {
+                    "title": "Silent Execution",
+                    "description": "Performs updates and hotfix installs quietly without interrupting user work."
+                },
+                {
+                    "title": "Effect",
+                    "description": "Optimizes license management to purchase only what is needed, reducing waste and shortages."
+                }
+            ]
+        },
+        "vans": {
+            "title": "VANS Auto Patching",
+            "images": [
+                "./images/VANS01.png",
+                "./images/VANS02.png"
+            ],
+            "features": [
+                {
+                    "title": "Report",
+                    "description": "Real-time delivery reporting to accurately track results for each PC and analyze failure causes."
+                },
+                {
+                    "title": "Update Management",
+                    "description": "Improves time-consuming update tasks and records history. Automated deployment reduces admin workload."
+                },
+                {
+                    "title": "Comparison",
+                    "description": "Intelligent comparison identifies software vulnerabilities based on latest support center standards, allowing preemptive reinforcement."
+                },
+                {
+                    "title": "Record Management",
+                    "description": "Micro-manages software changes including install, uninstall, and version history."
+                }
+            ]
+        },
+        "gcb": {
+            "title": "One-Click GCB / FCB / CIS Configuration",
+            "images": [
+                "./images/GCB01.png",
+                "./images/GCB02.png"
+            ],
+            "features": [
+                {
+                    "title": "One-Click Complete & Restore",
+                    "description": "Complete GCB scan, apply, and verify in one click. 'One-Click Restore' allows reverting to original config if issues arise."
+                },
+                {
+                    "title": "Visual Charts",
+                    "description": "Automatically integrates GCB data into intelligent charts for at-a-glance status monitoring."
+                },
+                {
+                    "title": "Report Correction",
+                    "description": "Detailed reporting of delivery results with statistics and failure analysis for rapid correction."
+                },
+                {
+                    "title": "One-Stop Management",
+                    "description": "Manages OS, browser, application, and network device firewall GCB settings in one place."
+                }
+            ]
+        },
+        "edr": {
+            "title": "EDR Endpoint Detection",
+            "images": [
+                "./images/EDR01.png",
+                "./images/EDR02.png"
+            ],
+            "features": [
+                {
+                    "title": "Real-time Detection",
+                    "description": "Monitors abnormal behavior instantly, giving no room for attackers."
+                },
+                {
+                    "title": "Intelligent Response",
+                    "description": "Aggregates global security intelligence to support accurate decision making."
+                },
+                {
+                    "title": "File Recording",
+                    "description": "Records all file hash changes to eliminate malware tampering possibilities."
+                },
+                {
+                    "title": "One-Click Install",
+                    "description": "Install and uninstall in one click, significantly reducing time and labor costs."
+                },
+                {
+                    "title": "Email Alerts",
+                    "description": "Automatically sends warning emails to designated addresses upon security incidents."
+                }
+            ]
+        },
+        "nac": {
+            "title": "NAC Network Access Control",
+            "images": [
+                "./images/NAC01.png",
+                "./images/NAC02.png",
+                "./images/NAC03.png"
+            ],
+            "features": [
+                {
+                    "title": "802.1X Auth",
+                    "description": "Manage and control network via 802.1X standard without additional hardware."
+                },
+                {
+                    "title": "Device Blocking",
+                    "description": "Manually allow or block devices from the management console. Easily handle special requirements or anomalies."
+                },
+                {
+                    "title": "Network Isolation",
+                    "description": "Authenticated users are assigned to distinct VLANs based on permissions, isolating visitors from critical equipment."
+                },
+                {
+                    "title": "Network Topology",
+                    "description": "Visual topology map records and displays the status of all devices in the network."
+                }
+            ]
+        },
+        "iot": {
+            "title": "IoT Device Identification",
+            "images": [
+                "./images/IOT01.png",
+                "./images/IOT02.png"
+            ],
+            "features": [
+                {
+                    "title": "Device Collection & Detection",
+                    "description": "Automatically collects network card info for all online devices and detects Agent installation status."
+                },
+                {
+                    "title": "Manufacturer Matching",
+                    "description": "Rapidly matches device manufacturers and registration countries to check for specific equipment (e.g. from China)."
+                },
+                {
+                    "title": "Detection Alerts",
+                    "description": "Customizable alerts based on country or other criteria with real-time email warnings."
+                },
+                {
+                    "title": "Access Control Check",
+                    "description": "Regularly checks IoT device status to detect and warn about faulty access control systems or cameras."
+                }
+            ]
+        },
+        "dlp": {
+            "title": "DLP Data Leak Prevention",
+            "images": [
+                "./images/DLP02.png",
+                "./images/DLP03.png",
+                "./images/DLP04.png"
+            ],
+            "features": [
+                {
+                    "title": "USB & File Management",
+                    "description": "Strict USB access control based on compliance. Detailed recording of operations and file changes."
+                },
+                {
+                    "title": "Screen Watermark",
+                    "description": "Customizable desktop watermarks to prevent information leakage via photography."
+                },
+                {
+                    "title": "Encryption & Steganography",
+                    "description": "Files are encrypted immediately upon closing. Steganography hides the existence of sensitive files."
+                },
+                {
+                    "title": "Document & Screenshot Protection",
+                    "description": "Restricts clipboard and screenshot functions when sensitive files are open."
+                }
+            ]
+        },
+        "zta": {
+            "title": "Zero Trust Architecture",
+            "images": [
+                "./images/ZTA01.png"
+            ],
+            "features": [
+                {
+                    "title": "Core Architecture",
+                    "description": "Based on NIST SP 800-207. Implements dynamic authentication and authorization for every access."
+                },
+                {
+                    "title": "Dynamic Trust",
+                    "description": "Dynamically adjusts permissions based on user and device real-time status. Enforces least privilege."
+                },
+                {
+                    "title": "On-Prem Gateway",
+                    "description": "Proprietary on-prem gateway mechanism for precise control of internal critical nodes."
+                },
+                {
+                    "title": "Seamless Integration",
+                    "description": "Integrates seamlessly with NAC, VANS, and DLP modules. Aligns with CISA Zero Trust Maturity Model."
+                }
+            ]
+        },
+        "sase": {
+            "title": "AI SASE",
+            "images": [
+                "./images/AI SASE01.png"
+            ],
+            "features": [
+                {
+                    "title": "One-Stop Management",
+                    "description": "Centralized management of network traffic and resource allocation via WinNexus."
+                },
+                {
+                    "title": "Data Protection & SD-WAN",
+                    "description": "Combines ZTNA, SD-WAN, SWG, FWaaS, and DLP for cost-effective, high-security data protection."
+                },
+                {
+                    "title": "Secure Remote Access",
+                    "description": "Ensures secure access for remote workers with connection reservation features."
+                }
+            ]
+        },
+        "ai-server": {
+            "title": "AI Server",
+            "images": [
+                "./images/AI Server01.png",
+                "./images/AI Server02.png",
+                "./images/AI Server03.png"
+            ],
+            "specs": {
+                "gpu": {
+                    "headers": [
+                        "Item",
+                        "NVIDIA L40S",
+                        "NVIDIA H200"
+                    ],
+                    "rows": [
+                        {
+                            "label": "Architecture",
+                            "value1": "Ada Lovelace",
+                            "value2": "Hopper"
+                        },
+                        {
+                            "label": "AI Cores",
+                            "value1": "18,176",
+                            "value2": "16,896"
+                        },
+                        {
+                            "label": "Tensor Cores",
+                            "value1": "568",
+                            "value2": "528"
+                        },
+                        {
+                            "label": "RT Cores",
+                            "value1": "142",
+                            "value2": "N/A"
+                        },
+                        {
+                            "label": "GPU Memory",
+                            "value1": "48 GB GDDR6",
+                            "value2": "141 GB HBM3e"
+                        },
+                        {
+                            "label": "Bandwidth",
+                            "value1": "864 GB/s",
+                            "value2": "4.8 TB/s"
+                        },
+                        {
+                            "label": "TDP",
+                            "value1": "350W",
+                            "value2": "Max 600W"
+                        },
+                        {
+                            "label": "Form Factor",
+                            "value1": "PCIe Gen4 x16 (Dual Slot)",
+                            "value2": "PCIe Gen5 x16 (Dual Slot)"
+                        },
+                        {
+                            "label": "Usage",
+                            "value1": "AI Inference, 3D Rendering, Visualization",
+                            "value2": "GenAI, LLM Inference, HPC"
+                        }
+                    ]
+                },
+                "server": {
+                    "title": "Model: CT-SR201-G2 2U",
+                    "rows": [
+                        {
+                            "label": "Processor",
+                            "value1": "AMD EPYC 9004 (Genoa) Series Dual CPU (Std: EPYC 9554)"
+                        },
+                        {
+                            "label": "Memory",
+                            "value1": "DDR5 RDIMM 24 Slots, 4800/4400 (Std: 256GB)"
+                        },
+                        {
+                            "label": "Storage",
+                            "value1": "12x 3.5/2.5\" SAS/SATA Hot-swap (Std: 32TB)"
+                        },
+                        {
+                            "label": "Network",
+                            "value1": "Onboard 1GbE (RJ45) x2"
+                        },
+                        {
+                            "label": "PCIe",
+                            "value1": "Dual Wide Full Height Full Length GPU Cards x2"
+                        },
+                        {
+                            "label": "Power",
+                            "value1": "1600W Redundant Hot-swap x2"
+                        },
+                        {
+                            "label": "OS",
+                            "value1": "Windows Server, RHEL, SLE, CentOS, Ubuntu"
+                        },
+                        {
+                            "label": "Dimensions",
+                            "value1": "2U Rack 748 x 433.4 x 87.6mm (D x W x H)"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

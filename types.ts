@@ -9,20 +9,31 @@ export interface SpecRow {
   value2?: string;
 }
 
+export interface GPUModelSpecs {
+  headers: string[];
+  rows: SpecRow[];
+}
+
+export interface ServerSpecs {
+  title: string;
+  rows: SpecRow[];
+}
+
+export interface ProductSpecs {
+  gpu?: GPUModelSpecs;
+  server?: ServerSpecs;
+}
+
 export interface ProductData {
   id: string;
-  title: string;
-  subtitle?: string;
   images: string[];
-  features: FeatureDetail[];
-  specs?: {
-    gpu?: {
-      headers: string[];
-      rows: SpecRow[];
-    };
-    server?: {
-      title: string;
-      rows: SpecRow[];
-    };
-  };
+  // Text fields are now retrieved via i18n, but we might merge them for usage
+  title?: string;
+  subtitle?: string;
+  features?: FeatureDetail[];
+  specs?: ProductSpecs;
+}
+
+export interface ProductConfig {
+  id: string;
 }
