@@ -371,7 +371,7 @@
                             "value2": "Hopper"
                         },
                         {
-                            "label": "AI Cores",
+                            "label": "CUDA Cores",
                             "value1": "18,176",
                             "value2": "16,896"
                         },
@@ -391,24 +391,24 @@
                             "value2": "141 GB HBM3e"
                         },
                         {
-                            "label": "Bandwidth",
+                            "label": "Memory Bandwidth",
                             "value1": "864 GB/s",
                             "value2": "4.8 TB/s"
                         },
                         {
-                            "label": "TDP",
+                            "label": "TDP (Thermal Design Power)",
                             "value1": "350W",
-                            "value2": "Max 600W"
+                            "value2": "Up to 600W"
                         },
                         {
-                            "label": "Form Factor",
+                            "label": "Slot Interface",
                             "value1": "PCIe Gen4 x16 (Dual Slot)",
                             "value2": "PCIe Gen5 x16 (Dual Slot)"
                         },
                         {
-                            "label": "Usage",
+                            "label": "Primary Use Case",
                             "value1": "AI Inference, 3D Rendering, Visualization",
-                            "value2": "GenAI, LLM Inference, HPC"
+                            "value2": "GenAI, LLM Inference, HPC, large-scale data center deployments"
                         }
                     ]
                 },
@@ -421,7 +421,7 @@
                         },
                         {
                             "label": "Memory",
-                            "value1": "DDR5 RDIMM 24 Slots, 4800/4400 (Std: 256GB)"
+                            "value1": "DDR5 RDIMM 24 Slots, 4800/4400 MT/s (Std: 256GB)"
                         },
                         {
                             "label": "Storage",
@@ -441,11 +441,11 @@
                         },
                         {
                             "label": "OS",
-                            "value1": "Windows Server, RHEL, SLE, CentOS, Ubuntu"
+                            "value1": "Microsoft Windows Server, Red Hat Enterprise Linux, SUSE Linux Enterprise Server, CentOS, Ubuntu"
                         },
                         {
                             "label": "Dimensions",
-                            "value1": "2U Rack 748 x 433.4 x 87.6mm (D x W x H)"
+                            "value1": "2U Rack 748 x 433.4 x 87.6mm (L x W x H)"
                         }
                     ]
                 }
