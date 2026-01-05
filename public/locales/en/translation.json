@@ -77,16 +77,16 @@
     "footer": {
         "taichung": {
             "title": "Taichung HQ",
-            "address": "16F-3, No. 925, Sec. 4, Taiwan Blvd., Xitun Dist., Taichung City 407"
+            "address": "Rm. 3, 16F., No. 925, Sec. 4, Taiwan Blvd., Xitun Dist., Taichung City 407, Taiwan (R.O.C.)"
         },
         "taipei": {
             "title": "Taipei Office",
-            "address1": "11F, No. 186, Jian 1st Rd., Zhonghe Dist., New Taipei City 235 (Office 1)",
-            "address2": "3F, No. 335, Ruiguang Rd., Neihu Dist., Taipei City 114 (Office 2)"
+            "address1": "11F., No. 186, Jian 1st Rd., Zhonghe Dist., New Taipei City 235, Taiwan (R.O.C.) (First Office)",
+            "address2": "3F, No. 335, Ruiguang Road, Neihu District, Taipei 114, Taiwan (R.O.C.) (Honghui Ruiguang Plaza, Building B) (Second Office)"
         },
         "tainan": {
             "title": "Tainan Office",
-            "address": "2F, M211, Siyuan Hall, No. 33, Sec. 2, Shulin St., West Central Dist., Tainan City 700"
+            "address": "2F Siyuan Building., No. 33, Sec. 2, Shulin St., West Central Dist., Tainan City 700, Taiwan (R.O.C.)"
         },
         "email": "E-mail",
         "copyright": "Copyright © 2011-{{year}}",
@@ -94,7 +94,7 @@
     },
     "company": {
         "sectionTitle": "Company Profile",
-        "heroTitle": "Beyond<br />Security.",
+        "heroTitle": "Beyond Security",
         "heroSubtitle": "Empowering IT Infrastructure,<br/>Stronger and Freer.",
         "stats": {
             "established": "Established",
@@ -130,108 +130,108 @@
             ],
             "features": [
                 {
-                    "title": "Scan",
-                    "description": "Scans terminal PC software usage including installed software, versions, usage time, and frequency."
+                    "title": "Scanning",
+                    "description": "Performs comprehensive scans of endpoint devices, providing detailed insights into installed software, versioning, usage duration, and frequency."
                 },
                 {
-                    "title": "Report",
-                    "description": "Real-time delivery reporting to accurately track results for each PC and analyze failure causes."
+                    "title": "Reporting",
+                    "description": "Delivers prompt updates on deployment status, tracking software dispatch outcomes per endpoint precisely with diagnostics on deployment issues."
                 },
                 {
                     "title": "Access Control",
-                    "description": "Integrates with AD for login control. Can also operate independently without AD."
+                    "description": "Active Directory (AD) Server integration for streamlined login control, with optional standalone operation capability."
                 },
                 {
-                    "title": "Silent Execution",
-                    "description": "Performs updates and hotfix installs quietly without interrupting user work."
+                    "title": "Silent Installation",
+                    "description": "Quietly executes software updates and hot-fixes in the background, ensuring uninterrupted end-user productivity."
                 },
                 {
-                    "title": "Effect",
-                    "description": "Optimizes license management to purchase only what is needed, reducing waste and shortages."
+                    "title": "Licensing Optimization",
+                    "description": "Effectively manages software licensing by aligning purchases with actual usage, preventing unnecessary expenditure or shortages."
                 }
             ]
         },
         "vans": {
-            "title": "VANS Auto Patching",
+            "title": "VANS Auto-Patching",
             "images": [
                 "./images/en/VANS01.png",
                 "./images/en/VANS02.png"
             ],
             "features": [
                 {
-                    "title": "Report",
-                    "description": "Real-time delivery reporting to accurately track results for each PC and analyze failure causes."
+                    "title": "Real-Time Reporting",
+                    "description": "Instantly provides deployment status, precisely tracking software updates across every device, along with clear diagnostics for any failed deployments."
                 },
                 {
-                    "title": "Update Management",
-                    "description": "Improves time-consuming update tasks and records history. Automated deployment reduces admin workload."
+                    "title": "Automated Updates",
+                    "description": "Optimizes traditionally time-intensive version updates and hotfix deployments through automation and detailed activity logging, providing comprehensive protection while saving administrative time and effort."
                 },
                 {
-                    "title": "Comparison",
-                    "description": "Intelligent comparison identifies software vulnerabilities based on latest support center standards, allowing preemptive reinforcement."
+                    "title": "Smart Matching",
+                    "description": "Proactively identifies software vulnerabilities based on current NICS / industry cybersecurity standards, allowing immediate remediation without external evaluations."
                 },
                 {
-                    "title": "Record Management",
-                    "description": "Micro-manages software changes including install, uninstall, and version history."
+                    "title": "Comprehensive Logs",
+                    "description": "Maintains detailed logs of all software activities, including installations, removals, and version updates, ensuring complete asset visibility."
                 }
             ]
         },
         "gcb": {
-            "title": "One-Click GCB / FCB / CIS Configuration",
+            "title": "One-Click GCB/FCB/CIS",
             "images": [
                 "./images/en/GCB01.png",
                 "./images/en/GCB02.png"
             ],
             "features": [
                 {
-                    "title": "One-Click Complete & Restore",
-                    "description": "Complete GCB scan, apply, and verify in one click. 'One-Click Restore' allows reverting to original config if issues arise."
+                    "title": "Instant Apply & Restore",
+                    "description": "One-Click GCB scanning, deployment, and validation with instant rollback to minimize downtime."
                 },
                 {
-                    "title": "Visual Charts",
-                    "description": "Automatically integrates GCB data into intelligent charts for at-a-glance status monitoring."
+                    "title": "Visual Dashboards",
+                    "description": "Automatically generates intuitive dashboards from GCB compliance data for clear, real-time oversight."
                 },
                 {
-                    "title": "Report Correction",
-                    "description": "Detailed reporting of delivery results with statistics and failure analysis for rapid correction."
+                    "title": "Detailed Diagnostics",
+                    "description": "Detailed deployment reports highlight success rates and identify issues for rapid troubleshooting."
                 },
                 {
-                    "title": "One-Stop Management",
-                    "description": "Manages OS, browser, application, and network device firewall GCB settings in one place."
+                    "title": "Unified Management",
+                    "description": "Manage GCB settings across OS, browsers, apps, and network firewalls in one streamlined action."
                 }
             ]
         },
         "edr": {
-            "title": "EDR Endpoint Detection",
+            "title": "EDR",
             "images": [
                 "./images/en/EDR01.png",
                 "./images/en/EDR02.png"
             ],
             "features": [
                 {
-                    "title": "Real-time Detection",
-                    "description": "Monitors abnormal behavior instantly, giving no room for attackers."
+                    "title": "Real-Time Monitoring",
+                    "description": "Continuously monitors and immediately identifies suspicious activities to block threats before exploitation."
                 },
                 {
-                    "title": "Intelligent Response",
-                    "description": "Aggregates global security intelligence to support accurate decision making."
+                    "title": "Smart Response",
+                    "description": "Leverages global cybersecurity intelligence to support rapid and accurate decision-making."
                 },
                 {
-                    "title": "File Recording",
-                    "description": "Records all file hash changes to eliminate malware tampering possibilities."
+                    "title": "File Integrity Logs",
+                    "description": "Records detailed file hash changes to prevent malicious tampering and ensure data integrity."
                 },
                 {
-                    "title": "One-Click Install",
-                    "description": "Install and uninstall in one click, significantly reducing time and labor costs."
+                    "title": "One-Click Installation",
+                    "description": "install or uninstall with a single click, drastically reducing manual effort and costs."
                 },
                 {
                     "title": "Email Alerts",
-                    "description": "Automatically sends warning emails to designated addresses upon security incidents."
+                    "description": "Automatically dispatches email notifications at the first sign of security incidents, enabling immediate response with zero delay."
                 }
             ]
         },
         "nac": {
-            "title": "NAC Network Access Control",
+            "title": "Network Access Control",
             "images": [
                 "./images/en/NAC01.png",
                 "./images/en/NAC02.png",
@@ -239,20 +239,20 @@
             ],
             "features": [
                 {
-                    "title": "802.1X Auth",
-                    "description": "Manage and control network via 802.1X standard without additional hardware."
+                    "title": "802.1X-Based Access Control",
+                    "description": "Utilizes the 802.1X standard to enforce network access policies without requiring additional hardware."
                 },
                 {
-                    "title": "Device Blocking",
-                    "description": "Manually allow or block devices from the management console. Easily handle special requirements or anomalies."
+                    "title": "Manual Device Control",
+                    "description": "Administrators can manually allow or block device access on the LAN through centralized interface, ideal for granting exceptions or isolating suspicious endpoints."
                 },
                 {
                     "title": "Network Isolation",
-                    "description": "Authenticated users are assigned to distinct VLANs based on permissions, isolating visitors from critical equipment."
+                    "description": "Authenticated users are assigned to VLANs based on their identity. VLANs are fully segmented and isolated from each other, ensuring, for example, that guest users cannot access sensitive internal resources."
                 },
                 {
-                    "title": "Network Topology",
-                    "description": "Visual topology map records and displays the status of all devices in the network."
+                    "title": "Network Topology Visualization",
+                    "description": "Provides a real-time, visual representation of all connected devices and their statuses, offering a clear, comprehensive overview of the entire network structure."
                 }
             ]
         },
@@ -264,25 +264,25 @@
             ],
             "features": [
                 {
-                    "title": "Device Collection & Detection",
-                    "description": "Automatically collects network card info for all online devices and detects Agent installation status."
+                    "title": "Device Discovery",
+                    "description": "Automatically scans network segment, gathering Network Interface details from active devices and verifying agent installation status."
                 },
                 {
-                    "title": "Manufacturer Matching",
-                    "description": "Rapidly matches device manufacturers and registration countries to check for specific equipment (e.g. from China)."
+                    "title": "Geo-Based Manufacturer Screening",
+                    "description": "Quickly matches devices to their manufacturers and registered countries, proactively identifying and managing devices form sensitive regions (e.g., China)"
                 },
                 {
-                    "title": "Detection Alerts",
-                    "description": "Customizable alerts based on country or other criteria with real-time email warnings."
+                    "title": "Customizable Real-Time Alerts",
+                    "description": "Easily set targeted detection criteria by country and define alert recipients. Instantly issues email notifications to rapidly escalate security responsiveness."
                 },
                 {
-                    "title": "Access Control Check",
-                    "description": "Regularly checks IoT device status to detect and warn about faulty access control systems or cameras."
+                    "title": "Access Control Health Checks",
+                    "description": "Periodically verifies IoT devices, promptly detecting offline access control systems or surveillance cameras, and issues immediate alerts to mitigate risks from equipment downtime."
                 }
             ]
         },
         "dlp": {
-            "title": "DLP Data Leak Prevention",
+            "title": "Data Leak Prevention",
             "images": [
                 "./images/en/DLP01.png",
                 "./images/en/DLP02.png",
@@ -292,43 +292,43 @@
             "features": [
                 {
                     "title": "USB & File Management",
-                    "description": "Strict USB access control based on compliance. Detailed recording of operations and file changes."
+                    "description": "USB storage devices, users, and host machines must all comply with security standards to enable USB storage access. All operations and file activities are comprehensively logged in real-time."
                 },
                 {
-                    "title": "Screen Watermark",
-                    "description": "Customizable desktop watermarks to prevent information leakage via photography."
+                    "title": "Screen Watermarking",
+                    "description": "Customizable watermarking that is displayed prominently upon system startup, effectively deterring unauthorized photography of sensitive information."
                 },
                 {
                     "title": "Encryption & Steganography",
-                    "description": "Files are encrypted immediately upon closing. Steganography hides the existence of sensitive files."
+                    "description": "Files are automatically encrypted immediately upon closure, ensuring data security. Advanced information concealment techniques are utilized to prevent unauthorized awareness of confidential files."
                 },
                 {
-                    "title": "Document & Screenshot Protection",
-                    "description": "Restricts clipboard and screenshot functions when sensitive files are open."
+                    "title": "Viewing & Screenshot Protection",
+                    "description": "Restricts clipboard and screenshot functionalities when sensitive documents are opened, with customizable levels of protection tailored to organizational security requirements."
                 }
             ]
         },
         "zta": {
-            "title": "Zero Trust Architecture",
+            "title": "Zero Trust",
             "images": [
                 "./images/ja/ZTA01.png"
             ],
             "features": [
                 {
                     "title": "Core Architecture",
-                    "description": "Based on NIST SP 800-207. Implements dynamic authentication and authorization for every access."
+                    "description": "Based on the NIST SP 800-207 standard, our Zero Trust Architecture (ZTA) utilizes a three-stage approach for dynamic identity verification and authorization, ensuring every access attempt is authenticated and validated."
                 },
                 {
                     "title": "Dynamic Trust",
-                    "description": "Dynamically adjusts permissions based on user and device real-time status. Enforces least privilege."
+                    "description": "The system dynamically adapts access permissions based on real-time user context and device status, enforcing the principle of least privilege while flexibly responding to emerging threats."
                 },
                 {
-                    "title": "On-Prem Gateway",
-                    "description": "Proprietary on-prem gateway mechanism for precise control of internal critical nodes."
+                    "title": "Local Gateway",
+                    "description": "An innovative, decentralized local gateway management solution strategically deployed at key network nodes, precisely controlling device access to implement Zero Trust principles within internal network segments."
                 },
                 {
                     "title": "Seamless Integration",
-                    "description": "Integrates seamlessly with NAC, VANS, and DLP modules. Aligns with CISA Zero Trust Maturity Model."
+                    "description": "Our ZTA security solution integrates effortlessly with existing security modules ( NAC / VANS / DLP ), fully aligning fully with CISA’s Zero Trust Maturity Model principles. This seamless adaptability ensures a comprehensive and resilient defense architecture."
                 }
             ]
         },
@@ -339,16 +339,16 @@
             ],
             "features": [
                 {
-                    "title": "One-Stop Management",
-                    "description": "Centralized management of network traffic and resource allocation via WinNexus."
+                    "title": "Unified Management",
+                    "description": "Our AI SASE delivers cloud-native services with centralized control over network traffic and resource allocation, all through Winnexus’s unified management interface."
                 },
                 {
-                    "title": "Data Protection & SD-WAN",
-                    "description": "Combines ZTNA, SD-WAN, SWG, FWaaS, and DLP for cost-effective, high-security data protection."
+                    "title": "Network Data Security",
+                    "description": "Built on Zero Trust Network Access (ZTNA) principles, the platform uses SD-WAN for dynamic network management and integrates SWG, FWaaS, and DLP technologies to provide a cost-efficient, high-security data protection solution."
                 },
                 {
                     "title": "Secure Remote Access",
-                    "description": "Ensures secure access for remote workers with connection reservation features."
+                    "description": "Ensure that remote workers can securely access corporate resources from anywhere. A built-in remote access reservation system allows for efficient control and scheduling of access permissions."
                 }
             ]
         },

@@ -4,8 +4,8 @@
         "description": "誠雲科技株式会社 - クラウド管理およびサイバーセキュリティ技術に特化した企業"
     },
     "hero": {
-        "title": "誠雲科技",
-        "subtitle": "CT-Cloud Technology",
+        "title": "CT-Cloud",
+        "subtitle": "Creating Cloud Technology",
         "scroll": "Scroll",
         "bgImage": "./images/大橫幅-11.png",
         "mobileBgImage": "./images/小橫幅-12.png"
