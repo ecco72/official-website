@@ -15,6 +15,65 @@
         "products": "Products",
         "contact": "Contact"
     },
+    "compliance": {
+        "sectionLabel": "INNOVATION & COMPLIANCE",
+        "sectionTitle": "Global Reliability & Innovation",
+        "highlight": "CT-Cloud is a Taiwan-headquartered cybersecurity innovator with an R&D-first culture, delivering globally consistent security with locally compliant execution. Built for distributors, we provide repeatable rollout playbooks and SI-friendly architectures that accelerate deployments, reduce delivery risk, and produce audit-ready evidence for regulated bids. Our roadmap aligns with ISO/IEC 27001, 27036, 27050, ISO 28000, ISO 22313/22318, ISO/IEC 42001 and ISO/IEC 23894, mapped to NIST CSF, and dual-benchmarked to CIS Benchmarks/STIG and Taiwan Cybersecurity Institute requirements. Secure AI Server extends governance into GPU/AI compute operations.",
+        "table": {
+            "title": "Digital Transformation / CSA / NSTC / SP-ISAC Control & Evidence",
+            "headers": {
+                "iso": "ISO / Standard",
+                "nist": "NIST CSF",
+                "winnexus": "WinNexus Capability",
+                "evidence": "Audit Evidence",
+                "focus": "Management Focus"
+            },
+            "rows": [
+                {
+                    "iso": "ISO 28000\nSupply Chain Security",
+                    "nist": "G / I / P / D / R / Rc",
+                    "winnexus": "Asset MGMT, IoT ID, NAC, ZTA, GPO (CIS Benchmarks), DLP, EDR, Anti-virus (Integrable), VNC Remote Logs, KB/Distribution",
+                    "evidence": "Access/Login Records, Baseline Reports, USB Event Logs, Incident Timeline/Action Records, Patch Compliance Reports, Report Export",
+                    "focus": "Supply Chain/Outsourcing/Supplier Security Governance, Perimeter Defense & Traceability"
+                },
+                {
+                    "iso": "ISO/IEC 27036\nSupplier Security",
+                    "nist": "G / I / P / D",
+                    "winnexus": "NAC+ZTA (Supplier Access/Least Privilege/Segmentation), Asset/IoT Scope Definition, GPO (CIS), DLP",
+                    "evidence": "Supplier Access Trails, Policy Execution Records, USB Device Events, Audit Report Export",
+                    "focus": "Supplier Access, Responsibility Scoping, Data Exchange & Auditability"
+                },
+                {
+                    "iso": "ISO/TS 22318\nSupply Chain Continuity",
+                    "nist": "G / I / P / R / Rc",
+                    "winnexus": "Asset/IoT, NAC+ZTA (Controlled Access in Emergency), KB/Distribution (Recovery Consistency)",
+                    "evidence": "Recovery/Fix Records, Version Consistency Reports, Recovery Process Evidence Export",
+                    "focus": "Supply Chain Interruption Risks, Business Continuity & Control Maintenance, Recovery Consistency"
+                },
+                {
+                    "iso": "ISO 22313 BCM Guidance",
+                    "nist": "G / I / R / Rc",
+                    "winnexus": "Assets, EDR, Anti-virus (Integrable), VNC/Command Logs, KB/Distribution",
+                    "evidence": "Incident & Response Timeline, Recovery & Patching Evidence, Drill/Incident Report Export",
+                    "focus": "Drill/Incident/Recovery Traceability, Business Continuity"
+                },
+                {
+                    "iso": "ISO/IEC 27050 eDiscovery/Evidence Gathering",
+                    "nist": "D / R / G",
+                    "winnexus": "EDR (Event Data), VNC/Command Logs, DLP (USB Device Events)",
+                    "evidence": "Chain of Custody (Timeline/Logs/Action Records), USB Events, Investigation/Audit Report Export",
+                    "focus": "Electronic Evidence Retention, Traceability, Action Log Retention"
+                },
+                {
+                    "iso": "ISO/IEC 23894 AI Risk Management",
+                    "nist": "G / I / P / D / R",
+                    "winnexus": "AI Server Hardware (ODM Support), GPU Security MGMT Platform (Cloud Native): Scheduling/Metering/Billing/Tenant Isolation/Centralized Logs, Foundation NAC+ZTA, EDR, Anti-virus (Integrable)",
+                    "evidence": "GPU Usage/Action Traceability Records, Tenant/Task Isolation Evidence, Governance Report Export",
+                    "focus": "AI/Compute Resource Governance, Isolation, Traceability & Audit"
+                }
+            ]
+        }
+    },
     "footer": {
         "taichung": {
             "title": "Taichung HQ",
@@ -66,8 +125,8 @@
         "software-dist": {
             "title": "Software Distribution",
             "images": [
-                "./images/軟體派送01.png",
-                "./images/軟體派送02.png"
+                "./images/en/軟體派送01.png",
+                "./images/en/軟體派送02.png"
             ],
             "features": [
                 {
@@ -95,8 +154,8 @@
         "vans": {
             "title": "VANS Auto Patching",
             "images": [
-                "./images/VANS01.png",
-                "./images/VANS02.png"
+                "./images/en/VANS01.png",
+                "./images/en/VANS02.png"
             ],
             "features": [
                 {
@@ -120,8 +179,8 @@
         "gcb": {
             "title": "One-Click GCB / FCB / CIS Configuration",
             "images": [
-                "./images/GCB01.png",
-                "./images/GCB02.png"
+                "./images/en/GCB01.png",
+                "./images/en/GCB02.png"
             ],
             "features": [
                 {
@@ -145,8 +204,8 @@
         "edr": {
             "title": "EDR Endpoint Detection",
             "images": [
-                "./images/EDR01.png",
-                "./images/EDR02.png"
+                "./images/en/EDR01.png",
+                "./images/en/EDR02.png"
             ],
             "features": [
                 {
@@ -174,9 +233,9 @@
         "nac": {
             "title": "NAC Network Access Control",
             "images": [
-                "./images/NAC01.png",
-                "./images/NAC02.png",
-                "./images/NAC03.png"
+                "./images/en/NAC01.png",
+                "./images/en/NAC02.png",
+                "./images/en/NAC03.png"
             ],
             "features": [
                 {
@@ -200,8 +259,8 @@
         "iot": {
             "title": "IoT Device Identification",
             "images": [
-                "./images/IOT01.png",
-                "./images/IOT02.png"
+                "./images/en/IOT01.png",
+                "./images/en/IOT02.png"
             ],
             "features": [
                 {
@@ -225,9 +284,8 @@
         "dlp": {
             "title": "DLP Data Leak Prevention",
             "images": [
-                "./images/DLP02.png",
-                "./images/DLP03.png",
-                "./images/DLP04.png"
+                "./images/en/DLP01.png",
+                "./images/en/DLP02.png"
             ],
             "features": [
                 {
@@ -251,7 +309,7 @@
         "zta": {
             "title": "Zero Trust Architecture",
             "images": [
-                "./images/ZTA01.png"
+                "./images/ja/ZTA01.png"
             ],
             "features": [
                 {
@@ -275,7 +333,7 @@
         "sase": {
             "title": "AI SASE",
             "images": [
-                "./images/AI SASE01.png"
+                "./images/ja/AI SASE01.png"
             ],
             "features": [
                 {

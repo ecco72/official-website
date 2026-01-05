@@ -15,6 +15,65 @@
         "products": "製品紹介",
         "contact": "お問い合わせ"
     },
+    "compliance": {
+        "sectionLabel": "イノベーション ＆ コンプライアンス",
+        "sectionTitle": "グローバル基準の信頼性と革新",
+        "highlight": "CT-Cloudは台湾に本社を置くサイバーセキュリティイノベーターとして、R&D主導でグローバル一貫のセキュリティを各国規制に準拠して提供します。ディストリビューター向けに再現性の高い展開プレイブックとSIerフレンドリー構造を提供し、導入の迅速化と監査対応の効率化を実現。ISO/IEC 27001、27036、27050、ISO 28000、22313/22318、42001、23894と整合し、NIST CSF / CIS Benchmarksにも対応。Secure AI ServerがガバナンスをGPU／AI運用へ拡張します。",
+        "table": {
+            "title": "數發／資安院／國科／SP-ISAC 落地控制與稽核佐證",
+            "headers": {
+                "iso": "ISO / 規格",
+                "nist": "NIST CSF",
+                "winnexus": "WinNexus 対応能力",
+                "evidence": "監査佐證",
+                "focus": "管理の重点"
+            },
+            "rows": [
+                {
+                    "iso": "ISO 28000\nサプライチェーンセキュリティ",
+                    "nist": "G / I / P / D / R / Rc",
+                    "winnexus": "資産管理、IoT識別、NAC、ZTA、GPO(CISベンチマーク)、DLP、EDR、アンチウイルス (統合可能)、VNCリモート操作ログ、KB/配信",
+                    "evidence": "アクセス/ログイン記録、ベースラインレポート、USBイベントログ、インシデントタイムライン/処置記録、パッチ適用率レポート、レポート出力",
+                    "focus": "サプライチェーン/アウトソーシング/サプライヤーのセキュリティガバナンス、境界防御と追跡可能性"
+                },
+                {
+                    "iso": "ISO/IEC 27036\nサプライヤー関係セキュリティ",
+                    "nist": "G / I / P / D",
+                    "winnexus": "NAC+ZTA (サプライヤーのアクセス許可/最小権限/セグメンテーション)、資産/IoT範囲の定義、GPO(CIS)、DLP",
+                    "evidence": "サプライヤーのアクセス軌跡、ポリシー実行記録、USB外部デバイスイベント、監査レポート出力",
+                    "focus": "サプライヤーアクセス、責任境界、データ交換と監査可能性"
+                },
+                {
+                    "iso": "ISO/TS 22318\nサプライチェーン継続性",
+                    "nist": "G / I / P / R / Rc",
+                    "winnexus": "資産/IoT、NAC+ZTA (緊急時における制御されたアクセス)、KB/配信 (リカバリの一貫性)",
+                    "evidence": "リカバリ/修正記録、バージョン一貫性レポート、リカバリプロセス証跡の出力",
+                    "focus": "サプライチェーン中断リスク、ビジネスの継続と制御の維持、リカバリの一貫性"
+                },
+                {
+                    "iso": "ISO 22313 BCM ガイダンス",
+                    "nist": "G / I / R / Rc",
+                    "winnexus": "資産、EDR、アンチウイルス (統合可能)、VNC/コマンド操作ログ、KB/配信",
+                    "evidence": "インシデントと対応のタイムライン、リカバリとパッチ適用のエビデンス、訓練/インシデントレポート出力",
+                    "focus": "訓練/インシデント/リカバリの追跡可能性、ビジネス継続性"
+                },
+                {
+                    "iso": "ISO/IEC 27050 eディスカバリ/証拠収集",
+                    "nist": "D / R / G",
+                    "winnexus": "EDR (イベントデータ)、VNC/コマンド操作ログ、DLP (USBデバイスイベント)",
+                    "evidence": "証拠チェーン (タイムライン/ログ/処置記録)、USBイベント、調査/監査用レポート出力",
+                    "focus": "電子証拠データの保存、追跡可能性、操作ログの保持"
+                },
+                {
+                    "iso": "ISO/IEC 23894 AI リスク管理",
+                    "nist": "G / I / P / D / R",
+                    "winnexus": "AIサーバーハードウェア (ODM対応可能)、GPUセキュリティ管理プラットフォーム (クラウドネイティブ)：スケジューリング/計量/課金/テナント隔離/集中ログ、基盤 NAC+ZTA、EDR、アンチウイルス (統合可能)",
+                    "evidence": "GPU使用/操作の追跡記録、テナント/タスク隔離のエビデンス、ガバナンスレポート出力",
+                    "focus": "AI/演算リソースの使用ガバナンス、アイソレーション、追跡可能性と監査"
+                }
+            ]
+        }
+    },
     "footer": {
         "taichung": {
             "title": "台中本社",
@@ -66,8 +125,8 @@
         "software-dist": {
             "title": "ソフトウェア配信",
             "images": [
-                "./images/軟體派送01.png",
-                "./images/軟體派送02.png"
+                "./images/ja/軟體派送01.png",
+                "./images/ja/軟體派送02.png"
             ],
             "features": [
                 {
@@ -95,8 +154,8 @@
         "vans": {
             "title": "VANS 自動パッチ適用",
             "images": [
-                "./images/VANS01.png",
-                "./images/VANS02.png"
+                "./images/ja/VANS01.png",
+                "./images/ja/VANS02.png"
             ],
             "features": [
                 {
@@ -120,8 +179,8 @@
         "gcb": {
             "title": "ワンクリックで GCB / FCB / CIS に準拠した設定適用",
             "images": [
-                "./images/GCB01.png",
-                "./images/GCB02.png"
+                "./images/ja/GCB01.png",
+                "./images/ja/GCB02.png"
             ],
             "features": [
                 {
@@ -145,8 +204,8 @@
         "edr": {
             "title": "EDR エンドポイント検知",
             "images": [
-                "./images/EDR01.png",
-                "./images/EDR02.png"
+                "./images/ja/EDR01.png",
+                "./images/ja/EDR02.png"
             ],
             "features": [
                 {
@@ -174,9 +233,9 @@
         "nac": {
             "title": "NAC ネットワークアクセス制御",
             "images": [
-                "./images/NAC01.png",
-                "./images/NAC02.png",
-                "./images/NAC03.png"
+                "./images/ja/NAC01.png",
+                "./images/ja/NAC02.png",
+                "./images/ja/NAC03.png"
             ],
             "features": [
                 {
@@ -200,8 +259,8 @@
         "iot": {
             "title": "IOT デバイスのオンライン識別",
             "images": [
-                "./images/IOT01.png",
-                "./images/IOT02.png"
+                "./images/ja/IOT01.png",
+                "./images/ja/IOT02.png"
             ],
             "features": [
                 {
@@ -225,9 +284,9 @@
         "dlp": {
             "title": "DLP データ漏えい防止",
             "images": [
-                "./images/DLP02.png",
-                "./images/DLP03.png",
-                "./images/DLP04.png"
+                "./images/ja/DLP02.png",
+                "./images/ja/DLP03.png",
+                "./images/ja/DLP04.png"
             ],
             "features": [
                 {
@@ -251,7 +310,7 @@
         "zta": {
             "title": "ゼロトラスト\n（Zero Trust）",
             "images": [
-                "./images/ZTA01.png"
+                "./images/ja/ZTA01.png"
             ],
             "features": [
                 {
@@ -275,7 +334,7 @@
         "sase": {
             "title": "AI SASE",
             "images": [
-                "./images/AI SASE01.png"
+                "./images/ja/AI SASE01.png"
             ],
             "features": [
                 {

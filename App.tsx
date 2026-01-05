@@ -2,6 +2,7 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import CompanyIntro from './components/CompanyIntro';
+import ComplianceSection from './components/ComplianceSection';
 import ProductsSection from './components/ProductsSection';
 import Footer from './components/Footer';
 import { useTranslation } from 'react-i18next';
@@ -65,6 +66,7 @@ function App() {
         <main>
           <Hero />
           <CompanyIntro />
+          <ComplianceSection />
           <ProductsSection />
         </main>
         <Footer />

@@ -65,9 +65,12 @@ const ProductCard: React.FC<Props> = ({ product, index }) => {
               </div>
 
               {/* Tighter typography on mobile */}
-              <h3 className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 lg:mb-6 leading-tight tracking-tight whitespace-pre-line">
-                {data.title}
-              </h3>
+              <h3
+                className="text-3xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 lg:mb-6 leading-tight tracking-tight whitespace-pre-line"
+                dangerouslySetInnerHTML={{
+                  __html: (data.title || '').replace(/\//g, '<span class="inline-block text-[0.65em] md:text-[0.75em] mx-1.5 font-medium relative -top-[0.05em]">/</span>')
+                }}
+              />
 
               {data.subtitle && (
                 <p className="text-lg md:text-2xl text-gray-500 dark:text-gray-400 font-light mb-6 lg:mb-8">
