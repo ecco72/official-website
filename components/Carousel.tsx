@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import ImageViewer from './ImageViewer';
 
@@ -8,9 +8,20 @@ interface Props {
 }
 
 const Carousel: React.FC<Props> = ({ images, alt }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [hasError, setHasError] = useState<boolean[]>(new Array(images.length).fill(false));
+  const [hasError, setHasError] = useState<boolean[]>([]);
+
+  // Sync state when images change (e.g., language switch)
+  useEffect(() => {
+    // If the current index is suddenly out of bounds, reset to 0
+    if (currentIndex >= images.length) {
+      setCurrentIndex(0);
+    }
+    // Re-initialize error states for the new set of images
+    setHasError(new Array(images.length).fill(false));
+  }, [images, i18n.language]);
+
   const [viewerOpen, setViewerOpen] = useState(false);
 
   // Touch handling state for inline carousel
@@ -87,8 +98,8 @@ const Carousel: React.FC<Props> = ({ images, alt }) => {
             <div
               key={idx}
               className={`absolute inset-0 transition-all duration-700 ease-out flex items-center justify-center ${currentIndex === idx
-                  ? 'opacity-100 scale-100 z-10 blur-0'
-                  : 'opacity-0 scale-95 z-0 blur-sm'
+                ? 'opacity-100 scale-100 z-10 blur-0'
+                : 'opacity-0 scale-95 z-0 blur-sm'
                 }`}
             >
               {!hasError[idx] ? (
@@ -141,8 +152,8 @@ const Carousel: React.FC<Props> = ({ images, alt }) => {
                   key={idx}
                   onClick={(e) => { e.stopPropagation(); setCurrentIndex(idx); }}
                   className={`transition-all duration-500 rounded-full h-1.5 shadow-sm pointer-events-auto ${currentIndex === idx
-                      ? 'bg-blue-600 dark:bg-white w-6 md:w-8'
-                      : 'bg-gray-400/50 dark:bg-white/20 w-1.5 hover:bg-gray-400 dark:hover:bg-white/40'
+                    ? 'bg-blue-600 dark:bg-white w-6 md:w-8'
+                    : 'bg-gray-400/50 dark:bg-white/20 w-1.5 hover:bg-gray-400 dark:hover:bg-white/40'
                     }`}
                   aria-label={`Go to slide ${idx + 1}`}
                 />

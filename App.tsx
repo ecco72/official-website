@@ -16,21 +16,17 @@ export const ThemeContext = React.createContext({
 export const useTheme = () => React.useContext(ThemeContext);
 
 function App() {
-  const [isDark, setIsDark] = useState(false);
-  const { t } = useTranslation();
-
-  // Load theme from local storage or system preference on mount
-  useEffect(() => {
+  const [isDark, setIsDark] = useState(() => {
     // Check local storage first
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
-      setIsDark(savedTheme === 'dark');
-    } else {
-      // Check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setIsDark(prefersDark);
+      return savedTheme === 'dark';
     }
-  }, []);
+    // Default to dark mode
+    return true;
+  });
+
+  const { t } = useTranslation();
 
   // Update document title and description based on language
   useEffect(() => {

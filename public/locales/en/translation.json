@@ -285,7 +285,9 @@
             "title": "DLP Data Leak Prevention",
             "images": [
                 "./images/en/DLP01.png",
-                "./images/en/DLP02.png"
+                "./images/en/DLP02.png",
+                "./images/en/DLP03.png",
+                "./images/DLP04.png"
             ],
             "features": [
                 {
